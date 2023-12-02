@@ -35,7 +35,7 @@ int extract_integers(string input)
                 }
             }
             
-            else if (input.find("two", pos) != -1)
+            if (input.find("two", pos) != -1)
             {
                 if (input.find("two", pos) == pos)
                 {
@@ -43,7 +43,7 @@ int extract_integers(string input)
                 }
             }
 
-            else if (input.find("three", pos) != -1)
+            if (input.find("three", pos) != -1)
             {
                 if (input.find("three", pos) == pos)
                 {
@@ -51,7 +51,7 @@ int extract_integers(string input)
                 }
             }
 
-            else if (input.find("four", pos) != -1)
+            if (input.find("four", pos) != -1)
             {
                 if (input.find("four", pos) == pos)
                 {
@@ -59,7 +59,7 @@ int extract_integers(string input)
                 }
             }
 
-            else if (input.find("five", pos) != -1)
+            if (input.find("five", pos) != -1)
             {
                 if (input.find("five", pos) == pos)
                 {
@@ -67,7 +67,7 @@ int extract_integers(string input)
                 }
             }
 
-            else if (input.find("six", pos) != -1)
+            if (input.find("six", pos) != -1)
             {
                 if (input.find("six", pos) == pos)
                 {
@@ -75,7 +75,7 @@ int extract_integers(string input)
                 }
             }
 
-            else if (input.find("seven", pos) != -1)
+            if (input.find("seven", pos) != -1)
             {
                 if (input.find("seven", pos) == pos)
                 {
@@ -83,7 +83,7 @@ int extract_integers(string input)
                 }
             }
 
-            else if (input.find("eight", pos) != -1)
+            if (input.find("eight", pos) != -1)
             {
                 if (input.find("eight", pos) == pos)
                 {
@@ -91,7 +91,7 @@ int extract_integers(string input)
                 }
             }
 
-            else if (input.find("nine", pos) != -1)
+            if (input.find("nine", pos) != -1)
             {
                 if (input.find("nine", pos) == pos)
                 {
